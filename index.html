@@ -1,15 +1,19 @@
 <html>
 	<head>
 		<script>
-			var answer = prompt('Are you kennith?');
-			if(anser == 'yes'){
-				Document.write('<h1>You suck</h1>');
-			}else{
-				Document.write('<h1>You alright</h1>');
+			function onOpen(){
+				var answer = prompt('Are you kennith?');
+				Document.open();
+				if(anser == 'yes'){
+					Document.write('<h1>You suck</h1>');
+				}else{
+					Document.write('<h1>You alright</h1>');
+				}
+				Document.close();
 			}
 		</script>
 	</head>
-	<body>
+	<body onload = 'onOpen();'>
 		<p>Hello World!</p>
 	</body>
 </html>
