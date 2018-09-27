@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	
+	<body onload="myFunc()">
+		<h1>Basic Javascript example</h1>
+		<h3 id="name"></h3>
+		<script>
+			function myFunc(){
+				var name = prompt("Whats your name?", "Test Name");
+				document.getElementById("name").innerHTML = "Welcome " + name + "!";
+			}
+		</script>
+
+	</body>
+</html>
