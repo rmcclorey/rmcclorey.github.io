@@ -1,0 +1,103 @@
+body{
+	background: #f7f5f0;
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	text-align: center;
+	background: url('https://placeimg.com/1000/200/tech') no-repeat top center ;
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 60px;
+	border-radius:10px;
+	margin-top:10px;
+}
+
+a{
+	text-decoration: none;
+	transition: all .5s;
+}
+.logoPic{
+	background: white;
+	margin-top:10px;
+	margin-top: 50px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 3px solid black;
+	transition: all .5s;
+}
+
+.logoPic:hover{
+	transform: scale(1.2) rotate(5deg);
+}
+
+.title{
+	text-align:center;
+}
+
+.tag{
+	background-color: GoldenRod;
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+	display: table;
+	margin: 10px auto;
+}
+
+.navigation {
+	width:100%;
+	background:GoldenRod;
+	text-align:center;
+	padding: 10px;
+	list-style-type: none;
+	justify-content:space-around;
+	margin: 0 auto;
+	display: flex;
+	border-radius: 15px;
+}
+
+
+.navigation a:hover{
+	color: white;
+}
+
+.nav li {
+	padding: 5px 10px 10px 10px;
+}
+
+.cardWrapper{
+	display:flex;
+}
+
+.card{
+	margin: 30px;
+	padding: 20px 40px 40px;
+	max-width: 500px;
+	text-align: left;
+	background: #fff;
+	border-bottom: 4px solid #ccc;
+	border-radius: 6px;
+} 
+
+.card:hover {
+  border-color: #ff99ff;
+}
+
+.skills li {
+	border-radius: 6px;
+	display: inline-block;
+	background: #ff9904;
+	color: white;
+	padding: 5px 10px;
+	margin: 2px;
+	transition: all .5s
+}
+
+.skills li:hover{
+	background: #0399ff;
+}
+	
+.skills a{
+	color:white;
+}

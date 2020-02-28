@@ -1,45 +1,39 @@
+<!DOCTYPE html>
 <html>
 	<head>
-	<style>
-	.center {
-		margin: auto;
-		width: 15%;
-		border: 3px solid #73AD21;
-		padding: 10px;
-	}
-	</style>
+		<title>Home Page!</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
-	<body onload='onOpen();'>
-		<h1>Welcome to my sample page!</h1>
-		<p>Obligatory "Hello World!"</p>
-		<a href="https://www.linkedin.com/in/ronan-mcclorey-4ab408120">LinkedIn Page </a>
-		<h2>What can you do with this free webpage?</h2>
-		<ul>
-			<li>Basic HTML</li>
-			<li><font color="red">Slightly fancier HTML</font></li>
-			<li><a href="basic.html">Basic Javascript Stuff</a></li>
-			<li><a href="snake.html">Fancy Javascript Stuff</a></li>
-		</ul>
-		<div class="center">
-			<p><b>Fancy css centering</b></p>
-			<font size="1">This was really hard please clap</font>
+	<body>
+		<div class='navigation'>
+			<ul class='navigation'>
+				<li class='name'> Ronan McClorey </li>
+				<li><a href='#'><b>Home</b></a></li>
+				<li><a href='https://www.linkedin.com/in/ronan-mcclorey-4ab408120'><b>Experience</b></a></li>
+				<li><a href='https://github.com/rmcclorey'><b>Github</b></a></li>
+			</ul>
 		</div>
-		<h2>Useful links</h2>
-		<table style="width:100%">
-			<tr>
-				<th>Learn more programming</th>
-				<th>Practice Programming Stuff you've learned</th>
-			</tr>
-			<tr>
-				<td><a href="https://codeacademy.com">Code Academy</a> Good place for learning the basics </td>
-				<td><a href="https://codewars.com">CodeWars </a> Online competitions for interview like programming challenges</td>
-			</tr>
-			<tr>
-				<td><a href="https://sfpl.org/?pg=2000883301">Free Teamtreehouse Account</a> Free account for one of the best online learning resources </td>
-				<td><a href="https://leetcode.com">Leetcode</a> Large collection of interview questions with varying difficulty</td>
-
-			</tr>
+		<header>
+			<img class='logoPic' src='./youthSFLogo.png' alt='YouthSF logo'>
+			<h1 class='tag title'> Welcome!</h1>
+			<p class='tag title_description'> I'm your teacher Ronan. </p>
+		</header>
+		<div class='cardWrapper'>
+			<div class='card'>
+					<h2>About me</h2>
+					<p> I've worked for YouthSF for over 3 years now, and have taught lots of classes in STEM based topics and activities. I taught myself how to program websites in high school, and now I'm teaching you!</p>
+			</div>
+			
+			<div class='card'>
+				<h2>What you'll learn</h2>
+				<ul class='skills'>
+					<li><a href = 'https://www.w3schools.com/html/default.asp'>HTML</a></li>
+					<li><a href='https://www.w3schools.com/css/default.asp'>CSS</a></li>
+					<li><a href='https://www.w3schools.com/js/default.asp'>Javascript</a></li>
+				</ul>
+				<p>This list looks short, but each language has a lot to learn about. Believe it or not these 3 languages are responsible for everything you see on every website.* This webpage only uses HTML and CSS.</p>
+			</div>
+		</div>
 		
-		</table>
 	</body>
 </html>
